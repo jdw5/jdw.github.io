@@ -59,3 +59,27 @@
 }
 
 .codecell table { width: auto; }
+
+.title-col {
+    display: flex; 
+    flex-direction: column; 
+}
+
+.header-wrapper {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr)); 
+    align-items: start; 
+    padding-bottom: 0.5rem; 
+}
+
+.subtitle {
+    font-size: 0.875rem;
+    line-height: 1.25rem; 
+    font-weight: 500; 
+    color: #6B7280; 
+}
+
+.ml-auto {
+    margin-left: auto; 
+}
+
