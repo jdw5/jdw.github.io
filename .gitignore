@@ -9,3 +9,5 @@ vendor
 _notebooks/.ipynb_checkpoints
 Gemfile.lock
 .bundle/
+package-lock.json
+node_modules
