@@ -27,7 +27,6 @@ plugins:
   - jekyll-gist
   - jekyll-octicons
   - jekyll-github-metadata
-  - jekyll-postcss
 
 titles_from_headings:
   enabled:     true
@@ -42,6 +41,3 @@ kramdown:
   auto_ids: true
   hard_wrap: false
   syntax_highlighter: rouge
-
-postcss:
-  cache: false
